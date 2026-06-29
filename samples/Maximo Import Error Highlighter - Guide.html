@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maximo Import Error Highlighter</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 800px; margin: 30px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+h1 { color: #1a6da0; border-bottom: 2px solid #1a6da0; padding-bottom: 8px; }
+h2 { color: #1a6da0; margin-top: 28px; }
+code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 0.95em; }
+pre { background: #1e1e1e; color: #d4d4d4; padding: 12px 16px; border-radius: 6px; overflow-x: auto; }
+.symptom { background: #fff3f3; border-left: 4px solid #d32f2f; padding: 12px 16px; border-radius: 4px; }
+.resolution { background: #f1f8e9; border-left: 4px solid #388e3c; padding: 12px 16px; border-radius: 4px; }
+ol { padding-left: 20px; }
+ol li { margin-bottom: 6px; }
+.keywords { margin-top: 30px; padding-top: 12px; border-top: 1px solid #ccc; font-size: 0.9em; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Import Error Highlighter</h1>
+
+<p>Marks error rows in an import CSV based on a Maximo import preview.</p>
+
+<h2>Symptom</h2>
+<div class="symptom">
+<p>A Maximo import preview reports <code>BMXAA5598E</code> errors with messages like:</p>
+<ul>
+<li><code>CTGCC1046I</code> — The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.</li>
+<li><code>BMXAA4129E</code> — The record for Source=<em>[CI]</em>, Target=<em>[CI]</em>, Relation=<em>[REL]</em> already exists.</li>
+</ul>
+<p>Scrolling between the preview text and the CSV to find which rows failed is tedious and error-prone, especially on large imports with hundreds of errors.</p>
+</div>
+
+<h2>Resolution</h2>
+<div class="resolution">
+<p>Use the <strong>Import Error Highlighter</strong> tool:</p>
+<ol>
+<li>Paste the <strong>entire import preview text</strong> (including error messages) into the tool</li>
+<li>Select the <strong>CSV file</strong> you were trying to import</li>
+<li>Click <strong>Mark Import Errors</strong></li>
+</ol>
+<p>The tool parses every <code>BMXAA5598E</code> line, reads the affected CSV line ranges, and writes each error message into a new <code>Import_Error</code> column on the matching row. A <code>.bak</code> backup of the original CSV is saved automatically.</p>
+</div>
+
+<h2>Download &amp; Build</h2>
+<p>Source and build scripts: <strong>https://github.com/Khalid-Tarek/import_highlighter</strong></p>
+<p>Double-click <code>build.bat</code> to create a standalone <code>ImportHighlighter.exe</code> (no Python required on the target machine).</p>
+
+<h2>Quick Start</h2>
+<ol>
+<li>Open the tool (run the .exe or <code>python src/import_highlighter.py</code>)</li>
+<li>Paste the full import preview text into the large text box</li>
+<li>Click <strong>Browse for CSV...</strong> and pick your import CSV</li>
+<li>Click <strong>Mark Import Errors</strong></li>
+<li>Open the updated CSV — each row with an error has the message in the <code>Import_Error</code> column</li>
+</ol>
+
+<h2>Example</h2>
+<p>Before — CSV has no error column:</p>
+<pre>CINUM,SOURCECI,RELATIONNUM,TARGETCI
+F5VIP-10.19.38.180:443,F5VIP-10.19.38.180:443,RELATION.LOADBALANCES,SERVER-10.19.172.163</pre>
+<p>After running the tool, the same row includes the error:</p>
+<pre>CINUM,SOURCECI,RELATIONNUM,TARGETCI,Import_Error
+F5VIP-10.19.38.180:443,F5VIP-10.19.38.180:443,RELATION.LOADBALANCES,SERVER-10.19.172.163,"BMXAA4129E - The record for Source=F5VIP-..., Target=SERVER-..., Relation=RELATION.LOADBALANCES already exists."</pre>
+
+<h2>Error Types Handled</h2>
+<table style="width:100%; border-collapse:collapse; margin:10px 0;">
+<tr style="background:#f0f0f0;"><th style="padding:8px 12px; border:1px solid #ccc; text-align:left;">Code</th><th style="padding:8px 12px; border:1px solid #ccc; text-align:left;">Meaning</th></tr>
+<tr><td style="padding:8px 12px; border:1px solid #ccc;">CTGCC1046I</td><td style="padding:8px 12px; border:1px solid #ccc;">Target CI does not exist in the database</td></tr>
+<tr><td style="padding:8px 12px; border:1px solid #ccc;">BMXAA4129E</td><td style="padding:8px 12px; border:1px solid #ccc;">Duplicate relationship already exists</td></tr>
+</table>
+
+<h2>Keywords</h2>
+<div class="keywords">
+Maximo, import preview, BMXAA5598E, CTGCC1046I, BMXAA4129E, CSV error highlighting, CI relationship import, bulk import troubleshooting, CIRelation, duplicate record detection, F5 WAF, Maximo import errors
+</div>
+
+</body>
+</html>
