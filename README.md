@@ -14,11 +14,8 @@ python src/import_highlighter.py
 
 The tool parses `BMXAA5598E` lines, extracts the affected CSV line ranges and error messages, and adds an `Import_Error` column to the CSV. A `.bak` backup of the original is created automatically.
 
-## Build
+## Build (standalone .exe)
 
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed src/import_highlighter.py
-```
+Double-click **`build.bat`** (or right-click `build.ps1` → Run with PowerShell).
 
-The standalone `.exe` will be in `dist/`.
+The script installs PyInstaller if needed and outputs `dist\ImportHighlighter.exe`.
