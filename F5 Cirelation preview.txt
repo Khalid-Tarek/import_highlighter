@@ -1,0 +1,96 @@
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 4 which starts at line 5 and ends at line 7.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 13 which starts at line 16 and ends at line 16.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 14 which starts at line 17 and ends at line 17.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 15 which starts at line 18 and ends at line 18.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 126 which starts at line 129 and ends at line 129.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 127 which starts at line 130 and ends at line 130.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 128 which starts at line 131 and ends at line 131.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 129 which starts at line 132 and ends at line 132.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 130 which starts at line 133 and ends at line 133.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 131 which starts at line 134 and ends at line 134.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 211 which starts at line 214 and ends at line 214.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 231 which starts at line 234 and ends at line 234.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 232 which starts at line 235 and ends at line 235.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 233 which starts at line 236 and ends at line 236.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 234 which starts at line 237 and ends at line 237.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 384 which starts at line 387 and ends at line 391.
+	BMXAA4129E - The record for Source Configuration Item Number=F5VIP-10.19.38.180: 443, Target Configuration Item Number=SERVER-10.19.172.163, Relation=RELATION.LOADBALANCES already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 410 which starts at line 417 and ends at line 419.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 419 which starts at line 428 and ends at line 428.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 420 which starts at line 429 and ends at line 429.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 421 which starts at line 430 and ends at line 430.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 532 which starts at line 541 and ends at line 541.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 533 which starts at line 542 and ends at line 542.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 534 which starts at line 543 and ends at line 543.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 535 which starts at line 544 and ends at line 544.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 536 which starts at line 545 and ends at line 545.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 537 which starts at line 546 and ends at line 546.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 555 which starts at line 564 and ends at line 564.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 619 which starts at line 628 and ends at line 628.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 639 which starts at line 648 and ends at line 648.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 640 which starts at line 649 and ends at line 649.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 641 which starts at line 650 and ends at line 650.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 642 which starts at line 651 and ends at line 651.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 801 which starts at line 811 and ends at line 815.
+	BMXAA4129E - The record for Source Configuration Item Number=F5VIP-10.19.38.180: 443, Target Configuration Item Number=SERVER-10.19.172.162, Relation=RELATION.LOADBALANCES already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 825 which starts at line 839 and ends at line 840.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 826 which starts at line 841 and ends at line 841.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 896 which starts at line 911 and ends at line 911.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 897 which starts at line 912 and ends at line 912.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 898 which starts at line 913 and ends at line 913.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 899 which starts at line 914 and ends at line 914.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 900 which starts at line 915 and ends at line 915.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 901 which starts at line 916 and ends at line 916.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 983 which starts at line 998 and ends at line 998.
+	CTGCC1046I - The CIRelation has not been saved, because the CI must exist before you can save the CIRelation.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1196 which starts at line 1214 and ends at line 1344.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.7, Target Configuration Item Number=F5VIP-10.19.249.17: 443, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1204 which starts at line 1477 and ends at line 1531.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.7, Target Configuration Item Number=F5VIP-10.19.32.169: 35103, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1210 which starts at line 1576 and ends at line 1638.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.7, Target Configuration Item Number=F5VIP-10.19.38.180: 443, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1211 which starts at line 1639 and ends at line 1769.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.8, Target Configuration Item Number=F5VIP-10.19.249.17: 443, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1219 which starts at line 1902 and ends at line 1956.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.8, Target Configuration Item Number=F5VIP-10.19.32.169: 35103, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
+BMXAA5598E - Processing of an inbound transaction failed. The processing exception is identified in document 1225 which starts at line 2001 and ends at line 2063.
+	BMXAA4129E - The record for Source Configuration Item Number=LB-10.31.32.8, Target Configuration Item Number=F5VIP-10.19.38.180: 443, Relation=HOSTS already exists. Ensure that the key value for the given record is unique.
